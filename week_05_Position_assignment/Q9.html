@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 9</title>
+  </head>
+  <style>
+    * {
+      margin: 8px 3px;
+      padding: 0;
+    }
+    span {
+      background-color: #ff6666;
+      padding: 10px 20px;
+    }
+
+    span:hover + .list {
+      display: block;
+    }
+    .list:hover {
+      display: block;
+    }
+
+    .list {
+      max-height: 150px;
+      width: 182px;
+      overflow: scroll;
+      display: none;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .container {
+      display: block;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <span>Hover to view Options</span>
+      <div class="list">
+        <ul>
+          <li>Option 1</li>
+          <li>Option 2</li>
+          <li>Option 3</li>
+          <li>Option 4</li>
+          <li>Option 5</li>
+          <li>Option 6</li>
+          <li>Option 7</li>
+          <li>Option 8</li>
+          <li>Option 9</li>
+          <li>Option 10</li>
+          <li>Option 11</li>
+          <li>Option 12</li>
+          <li>Option 13</li>
+          <li>Option 14</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
