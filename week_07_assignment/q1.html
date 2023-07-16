@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 1</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: grid;
+      justify-items: center;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 50% 40% 10%;
+      border: solid black 2px;
+      min-height: 75vh;
+      min-width: 60%;
+      max-width: 90%;
+      margin-top: 2%;
+      max-height: 130vh;
+    }
+
+    .division1 {
+      width: 70%;
+      justify-self: center;
+      align-self: center;
+    }
+
+    .division1 > h1,
+    p {
+      padding: 25px;
+    }
+
+    .btn {
+      width: 120px;
+      padding: 5px;
+      background-color: #000000;
+      border-radius: 5px;
+      color: white;
+      margin-left: 20px;
+    }
+
+    .division2 {
+      background-image: url(image/food.jpg);
+    }
+
+    .division3 {
+      background-color: #ffff00;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="division1">
+          <h1>Healthy Food</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+            sapiente adipisci, minus dolore suscipit cupiditate quis aut maxime
+            dicta labore magnam, sequi ipsa fugiat doloribus fugit nisi ea
+            commodi? Hic ullam aliquam facere
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="division2">
+          <!-- Image -->
+        </div>
+        <div class="division3">
+          <!-- color -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
