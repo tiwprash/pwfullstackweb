@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 8</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #282c2f;
+      position: relative;
+    }
+    img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 10px solid #ffffff;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 22%;
+    }
+
+    .random1 {
+      z-index: 4;
+    }
+
+    .random2 {
+      position: absolute;
+      margin-left: 170px;
+      z-index: 3;
+    }
+
+    .random3 {
+      position: absolute;
+      margin-left: 330px;
+      z-index: 2;
+    }
+    .random4 {
+      position: absolute;
+      margin-left: 490px;
+      z-index: 1;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <img class="random1" src="images/random1.jpg" alt="" />
+      <img class="random2" src="images/random2.jpg" alt="" />
+      <img class="random3" src="images/random3.jpg" alt="" />
+      <img class="random4" src="images/random5.jpg" alt="" />
+    </div>
+  </body>
+</html>

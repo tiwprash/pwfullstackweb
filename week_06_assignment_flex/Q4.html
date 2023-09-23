@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 4</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+
+    body{
+        position: relative;
+    }
+
+    .logo {
+        width: 28px;
+        height: 28px;
+        padding: 8px;
+    }
+
+    .navbar {
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow:1px 2px 2px rgb(222, 222, 225);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: #ffffff;
+    }
+
+    .navbar>button {
+        height: 45px;
+        margin-left: 20px;
+        
+    }
+
+    .nav_logo {
+        display: flex;
+        width: 51%;
+        padding: 10px 60px;
+    }
+
+    .nav_logo>h2 {
+        padding: 6px;
+        color: #5F6368;
+
+    }
+    .work{
+        color: #1A73E8;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 20px 10px 20px;
+        background-color: #ffffff;
+        border-style: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .work:hover{
+        background-color:#ecf2fa ;
+    }
+
+    .sign_in{
+        color: #1A73E8;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 20px 10px 20px;
+        background-color: #ffffff;
+        border: 1px solid #d8d5d5 ;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .sign_in:hover{
+        background-color:#ecedef ;
+        border-color: #98c5ff;
+    }
+
+    .Create_account{
+        color:#ffffff;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 20px 10px 20px;
+        background-color: #1A73E8;
+        border: 1px solid #1A73E8;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .Create_account:hover{
+        background-color:#04479f ;
+        /* border-color: #98c5ff; */
+    }
+
+    button{
+        border-radius: 5px;
+    }
+
+    .container{
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .content{
+        width:45%;
+        height: 100vh;
+        padding: 20px;
+        margin-left: 40px;
+        padding-top: 200px;
+        
+    }
+
+    .img{
+        width: 830px;
+        margin-top: 50px;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    h1{
+        width: 400px;
+        font-size: 56px;
+        line-height: 58px;
+        font-weight: 600;
+        padding: 15px;
+    
+    }
+
+    p{
+        font-weight: 600;
+        color: #5F6368;
+        width: 400px;
+        padding: 15px;
+
+    }
+
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="nav_logo">
+            <img src="images/logo-gmail.png" name="logo" alt="logo" class="logo" />
+            <h2>Gmail<h2>
+        </div>
+        <button class="work">For work</button>
+        <button class="sign_in">Sign In</button>
+        <button class="Create_account">Create an account</button>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h1>Secure, smart, and easy to use email</h1>
+            <p>
+                Get more done with Gmail. Now integrated with Google Chat, Google
+                Meet, and more, all in one place.
+            </p>
+            <button class="Create_account">Create an account</button>
+            <button class="work">For work</button>
+        </div>
+        <div>
+            <img class="img" src="images/gmail.jpg" alt="gmail image" />
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 3</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: grid;
+      justify-items: center;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 50% 40% 10%;
+      min-height: 75vh;
+      width: 99%;
+      max-height: 130vh;
+      margin-left: 5%;
+      margin-right: 10%;
+    }
+
+    .division1 {
+      width: 70%;
+      justify-self: center;
+      align-self: center;
+    }
+
+    .division1 > h1,
+    p {
+      padding: 25px;
+    }
+
+    .btn {
+      width: 120px;
+      padding: 5px;
+      background-color: #000000;
+      border-radius: 5px;
+      color: white;
+      margin-left: 20px;
+    }
+
+    .division2 {
+      background-image: url(image/food.jpg);
+    }
+
+    .division3 {
+      background-color: #ffff00;
+    }
+
+    .nav_logo {
+      width: 35px;
+      margin-top: 1%;
+      margin-right: 60%;
+    }
+
+    .navbar {
+      display: grid;
+      grid-template-columns: auto 25% auto;
+      align-items: center;
+      justify-items: center;
+      /* height: 10%; */
+    }
+
+    ul {
+      list-style: none;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-items: center;
+    }
+
+    .login_btn {
+      background-color: #49e38f;
+      margin: 2%;
+      margin-left: 60%;
+    }
+
+    .swiggy_banner > img {
+      width: 110px;
+    }
+
+    .swiggy {
+      margin: 2.5%;
+      background-color: #2b1e16;
+      color: white;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      column-gap: 10%;
+      height: 405px;
+    }
+
+    .swiggy_banner {
+      /* display: grid; */
+      justify-items: center;
+      width: 90%;
+      margin-left: 5%;
+      text-align: center;
+      /* background-color: #ffff00; */
+    }
+    .swiggy_banner > p {
+      width: 85%;
+
+      color: #f0dac2;
+      margin-bottom: 5%;
+    }
+
+    .swiggy_banner > h2 {
+      margin-top: 10%;
+    }
+    .swiggy_banner3 {
+      margin-top: 11%;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <img class="nav_logo" src="image/food_logo.png" alt="" />
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      <button class="btn login_btn">Login</button>
+    </nav>
+    <div class="container">
+      <div class="hero">
+        <div class="division1">
+          <h1>Healthy Food</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+            sapiente adipisci, minus dolore suscipit cupiditate quis aut maxime
+            dicta labore magnam, sequi ipsa fugiat doloribus fugit nisi ea
+            commodi? Hic ullam aliquam facere
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="division2">
+          <!-- Image -->
+        </div>
+        <div class="division3">
+          <!-- color -->
+        </div>
+      </div>
+    </div>
+    <div class="swiggy">
+      <div class="swiggy_banner1 swiggy_banner">
+        <img src="image/swiggy1.webp" alt="" />
+        <h2>No Minimum Order</h2>
+        <p>
+          Order in for yourself or for the group, with no restrictions on order
+          value
+        </p>
+      </div>
+      <div class="swiggy_banner2 swiggy_banner">
+        <img src="image/swiggy2.webp" alt="" />
+        <h2>Live Order Tracking</h2>
+        <p>
+          Know where your order is at all times, from the restaurant to your
+          doorstep
+        </p>
+      </div>
+      <div class="swiggy_banner3 swiggy_banner">
+        <img src="image/swiggy3.webp" alt="" />
+        <h2>Lightning-Fast Delivery</h2>
+        <p>
+          Experience Swiggy's superfast delivery for food delivered fresh & on
+          time
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
