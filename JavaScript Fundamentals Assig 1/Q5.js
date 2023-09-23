@@ -13,6 +13,7 @@ switch (packageType) {
         deliveyTime = "next day" 
         console.log(deliveyTime)       
         break;
+        
 
     default:
         break;
