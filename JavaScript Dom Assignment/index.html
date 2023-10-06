@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="newQuestion">
+      <h4 class="question">
+        Q1.Your client needs a feature to upload a profile picture on their
+        website. Your task is to create an "input type=file" element that allows
+        users to select images. Once an image is uploaded, display a preview of
+        the selected image below the file input. You are required to achieve
+        this using JavaScript DOM manipulation.
+      </h4>
+
+      <h2>Upload your Profile picture</h2>
+      <input id="profile" type="file" />
+      <h3>Your Profile picture</h3>
+      <img id="profileImg" src="" alt="Your profile picture" />
+      <img src="" alt="" />
+    </div>
+
+    <div class="newQuestion">
+      <h4 class="question">
+        Q2.You have been assigned a task to implement a theme toggle feature for
+        a website. The website currently displays which mode it is in (either
+        "Dark Mode" or "Light Mode") and has a toggle button. The challenge is
+        to use DOM manipulation to toggle the theme between dark and light modes
+        when the button is clicked.
+      </h4>
+      <div class="theme">
+        <h2 class="themMode">This is Light Mode</h2>
+        <button class="themToggelbtn">Toggle Theme</button>
+      </div>
+    </div>
+
+    <div class="newQuestion">
+      <h4 class="question">
+        Q3.You are tasked with building a simple web counter that displays two
+        buttons: "+" and "-". When the user clicks the "+" button, the counter
+        should increment by one, and when the user clicks the "-" button, the
+        counter should decrement by one. If the counter goes below zero, you
+        must notify the user through an alert.
+      </h4>
+      <div class="counter">
+        <button class="add">+</button>
+        <h3 class="count">0</h3>
+        <button class="sub">-</button>
+      </div>
+    </div>
+
+    <div class="newQuestion">
+      <h4 class="question">
+        Q4.You are tasked to create form validation using JS DOM. Ensure that
+        the username must be at least 3 characters long, and the password must
+        be at least 8 characters long. On form submission, display an alert
+        stating "Form Validation successful" if the conditions are met,
+        otherwise, show "Form Validation failed." Remember, on form submission,
+        the webpage must not be reloaded.
+      </h4>
+      <div class="form">
+        <h3>Sign Up Form</h3>
+        <form class="form1">
+          <label for="name">Name : </label
+          ><input id="name" name="name" type="text" /> <br /><br />
+          <label for="email">Email ID : </label
+          ><input class="email" name="email" type="text" /><br /><br />
+          <label for="password">Password : </label
+          ><input class="password" name="password" type="text" /><br />
+          <button class="formbtn" type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="newQuestion">
+      <h4 class="question">
+        Q5.Your task is to implement an image toggle using JS DOM. Create a
+        heading to display the current state of the image and a toggle button.
+        When the button is clicked, if the image is hidden, make it visible, and
+        update the message accordingly. If the image is visible, hide it, and
+        update the message accordingly.
+      </h4>
+      <div class="hiddenImg">
+        <h3 class="imgstatus">Your Image is visible</h3>
+        <button class="imgtogglebtn" type="submit">Toggle</button><br />
+        <img
+          src="img.webp"
+          alt="Your image"
+          hidden
+          width="350px"
+          class="hidimg"
+        />
+      </div>
+    </div>
+
+    <div class="newQuestion">
+      <h4 class="question dropdownquestion">
+        Q6.Your task is to use JS DOM to create a heading element and a dropdown
+        element. You have an array of options, and you need to loop through
+        them, adding each option as a dropdown item. Below are the reference
+        images.
+      </h4>
+    </div>
+    <div class="newQuestion">
+      <h4 class="question">
+        Q7.You are tasked to create an input field and a list of items. As the
+        user types in the input field, dynamically filter the list to show only
+        items that match the input. Making sure the list updates in real-time as
+        the user types.
+      </h4>
+      <input class="filter" type="text" />
+      <h3>Results :</h3>
+      <ul class="list">
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>Ruby</li>
+      </ul>
+    </div>
+    <div class="newQuestion">
+      <h4 class="question">
+        Q8.Your task is to create a webpage that displays the time in hours,
+        minutes, and seconds in the center of the screen. Format the time to
+        have 2 digits for hours, minutes, and seconds, and use the time's values
+        to assign a hex code to the background. The timer should update in
+        real-time without any user interaction. For Example: If the time is
+        12:10:50 the background color of the webpage will have the hex code
+        “#121050”.
+      </h4>
+      <h3 class="time">gddhhd</h3>
+    </div>
+    <div class="newQuestion">
+      <h4 class="question">
+        Q9.Your task is to create a simple webpage with two buttons: "Login" and
+        "Logout." When the "Login" button is clicked, the user's authentication
+        status should be stored in localStorage. When the "Logout" button is
+        clicked, the authentication status should be removed from localStorage.
+        Additionally, display a heading below the buttons to indicate whether
+        the user is logged in or not.
+      </h4>
+
+      <button class="login" type="submit">Login</button>
+      <button class="logout" type="submit">Logout</button>
+      <h3 class="loginstatus">User Has Not Logged In</h3>
+    </div>
+    <div class="newQuestion"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

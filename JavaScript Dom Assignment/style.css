@@ -1,0 +1,82 @@
+body {
+  margin: 5px;
+  padding: 5px;
+  background-color: azure;
+}
+
+.newQuestion {
+  border: 1px black solid;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.question {
+  background-color: #a8d0eb;
+  color: #050404;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+#profileImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+button {
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.themToggelbtn:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.counter {
+  display: flex;
+}
+
+.counter > button {
+  height: 25px;
+  width: 30px;
+}
+
+.counter > h3 {
+  margin-top: 12px;
+}
+
+.form {
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: #ffffff;
+}
+
+.formbtn {
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.hiddenImg{
+    margin: 10px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
